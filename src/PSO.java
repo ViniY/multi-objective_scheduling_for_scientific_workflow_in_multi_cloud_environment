@@ -9,10 +9,8 @@ public class PSO {
 		this.particle_number = particle_number;
 		this.tsk_list = task_list;
 		this.task_number = this.tsk_list.size();
-
-
-
-
+	}
+	public void Set(double[] x) {
 
 	}
 
@@ -28,9 +26,6 @@ public class PSO {
 		for(Particle p : this.swarm) {
 			p.initial_particle();
 		}
-
-
-
 	}
 
 
